@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    font-family: 'Nunito';
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.headerMenu{
+    display: flex;
+    position: fixed; 
+    width: 100%; 
+    padding: 8px; 
+    padding-bottom: 32px; 
+    padding-top: 32px;
+    height: 60px; 
+    background-color: #2a1d3d;
+}
+
+.headerMenu nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%; 
+}
+
+.listaMenu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%; 
+    align-items: center;
+}
+
+.listaMenu li>a {
+    color: #FFF; 
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.principal{
+    height: 100vh;
+    display: flex;
+    background-color: #EAEAEA;
+}
+
+.container {
+    margin-right: auto; 
+    margin-left: auto; 
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px; 
+    width: 100%; 
+}
+
+.subcontainerPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nomeCompleto {
+    font-size: 36px;
+    color: #463066;
+    font-weight: 700;
+    height: 45px;
+}
+
+.textoSobre {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.profissao {
+    color: #282828;
+    height: 60px; 
+}
+
+.topicoPrincipal {
+    font-size: 36px;
+    color: #463066;
+}
+
+
+.articleLista {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+.listaItem {
+    padding: 32px;
+}
+
+.listaItem ul li {
+    margin-bottom: 32px;
+}
+
+.listaTitulo {
+    margin-bottom: 5px; 
+    color: #7e6e94;
+    font-weight: 700;
+}
+
+.listaLocal {
+    font-size: 18px;
+    color: #2F80ED;
+}
+
+.listaDescricao {
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #828282;
+    font-weight: 300;
+}
+
+.wrapperPortfolio {
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape ul{
+    background-color: #2a1d3d;
+    color: white;
+    padding: 32px;
+    color: white;
+    text-decoration: none;
+}
+
+.itensRodape a{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.itensRodape i{
+    font-size: 25px;
+}
