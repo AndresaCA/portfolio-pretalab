@@ -7,6 +7,7 @@
 body{
     font-family: 'Nunito';
     margin: 0;
+    background-color: rgb(224, 224, 224);
 }
 
 li {
@@ -15,11 +16,11 @@ li {
 
 .headerMenu{
     display: flex;
-    position: fixed; 
+    max-width: 960px;
     width: 100%; 
-    padding: 8px; 
-    padding-bottom: 32px; 
-    padding-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px; 
     height: 60px; 
     background-color: #2a1d3d;
 }
@@ -44,25 +45,29 @@ li {
 }
 
 .principal{
-    height: 100vh;
+    height: 90vh;
     display: flex;
-    background-color: #EAEAEA;
+    justify-content: center;
+    background-color: white;
+    max-width: 960px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px;
 }
 
 .container {
+    display: flex;
     margin-right: auto; 
     margin-left: auto; 
     max-width: 960px;
-    padding-right: 10px;
-    padding-left: 10px; 
-    width: 100%; 
+    padding: 32px;
 }
 
 .subcontainerPrincipal{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
@@ -88,19 +93,21 @@ li {
     color: #463066;
 }
 
-
 .articleLista {
     display: flex;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    justify-content: center;
+    max-width: 960px;
+    background-color: white;
+    display: flex;
     flex-direction: column;
+    padding: 32px;
 }
 .listaItem {
-    padding: 32px;
+    padding: 12px;
 }
 
 .listaItem ul li {
-    margin-bottom: 32px;
+    margin-bottom: 12px;
 }
 
 .listaTitulo {
@@ -123,12 +130,17 @@ li {
 }
 
 .wrapperPortfolio {
-    background-color: #EAEAEA;
+    background-color: white;
+    padding: 32px;
+    max-width: 960px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
 }
 
-.rodape ul{
+.rodape {
     background-color: #2a1d3d;
     color: white;
     padding: 32px;
@@ -136,13 +148,15 @@ li {
     text-decoration: none;
 }
 
-.itensRodape a{
+.rodape a{
     text-decoration: none;
     color: white;
     margin-left: 5px;
     font-size: 15px;
+    text-align: center;
 }
 
-.itensRodape i{
+.rodape i{
     font-size: 25px;
+    text-align: center;
 }
