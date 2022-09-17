@@ -7,7 +7,7 @@
 body{
     font-family: 'Nunito';
     margin: 0;
-    background-color: rgb(224, 224, 224);
+    background-color: #1C2833;
 }
 
 li {
@@ -22,7 +22,7 @@ li {
     margin-right: auto;
     padding: 32px; 
     height: 60px; 
-    background-color: #2a1d3d;
+    background-color: #b7567c;
 }
 
 .headerMenu nav {
@@ -45,26 +45,32 @@ li {
 }
 
 .principal{
-    height: 90vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: #c16e8f;
+    color: #f5e7ec;
     max-width: 960px;
     width: auto;
     margin-left: auto;
     margin-right: auto;
-    padding: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .container {
+    background-color: #17202A;
+    /*border: 1px solid blue;*/
     display: flex;
+    flex-direction: column;
     margin-right: auto; 
     margin-left: auto; 
     max-width: 960px;
-    padding: 32px;
+    padding: 12px 32px 12px 32px;
 }
 
 .subcontainerPrincipal{
+    background-color: #c16e8f;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,7 +79,7 @@ li {
 
 .nomeCompleto {
     font-size: 36px;
-    color: #463066;
+    color: #a22557;
     font-weight: 700;
     height: 45px;
 }
@@ -84,23 +90,24 @@ li {
 }
 
 .profissao {
-    color: #282828;
+    color: #2C3E50;
     height: 60px; 
 }
 
 .topicoPrincipal {
     font-size: 36px;
-    color: #463066;
+    color: #ad3d69;
+    margin-top: 35px;
 }
 
 .articleLista {
-    display: flex;
-    justify-content: center;
     max-width: 960px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 32px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #17202A;
+    /*border: 1px solid red;*/
+    padding-left: 12px 32px 12px 32px;
 }
 .listaItem {
     padding: 12px;
@@ -112,45 +119,36 @@ li {
 
 .listaTitulo {
     margin-bottom: 5px; 
-    color: #7e6e94;
+    color: #c16e8f;
     font-weight: 700;
 }
 
 .listaLocal {
     font-size: 18px;
-    color: #2F80ED;
+    color: #566573;
+    text-decoration: none;
 }
 
 .listaDescricao {
     font-size: 18px;
     margin-top: 5px;
+    margin-bottom: 35px;
     line-height: 20px;
-    color: #828282;
+    color: #f5e7ec;
     font-weight: 300;
 }
 
-.wrapperPortfolio {
-    background-color: white;
-    padding: 32px;
-    max-width: 960px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-}
-
 .rodape {
-    background-color: #2a1d3d;
-    color: white;
+    background-color: #b7567c;
+    color: #17202A;
     padding: 32px;
-    color: white;
     text-decoration: none;
 }
 
 .rodape a{
     text-decoration: none;
-    color: white;
+    color: #17202A;
+    font-weight: bold;
     margin-left: 5px;
     font-size: 15px;
     text-align: center;
